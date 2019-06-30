@@ -1,0 +1,84 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+li {
+	list-style: none;
+}
+body {
+	font-size: 12px;
+	color: #666;
+}
+a {
+	text-decoration: none;
+}
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?7kkyc2');
+  src:  url('../fonts/icomoon.eot?7kkyc2#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?7kkyc2') format('truetype'),
+    url('../fonts/icomoon.woff?7kkyc2') format('woff'),
+    url('../fonts/icomoon.svg?7kkyc2#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.w {
+	width: 1200px;
+	margin: auto;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.nav {
+	overflow: hidden;
+	height: 82px;
+	border-bottom: 2px solid #B1191A;
+}
+.nav a {
+	display: block;
+	margin-top: 15px;
+}
+.main {
+	margin-top: 20px;
+	border: 1px solid #ccc;
+}
+.newuser {
+	height: 40px;
+	background-color: #ECECEC;
+	border-bottom: 1px solid #ccc;
+}
+.newuser_lf {
+	line-height: 40px;
+	font-size: 18px;
+	padding-left: 10px;
+}
+.newuser_rt {
+	font-size: 14px;
+	line-height: 40px;
+	padding-right: 10px;
+}
+.newuser_rt a {
+	color: #C81623;
+}
+.centent {
+	width: 1198px;
+	height: 479px;
+}
+label {
+	text-align: right;
+	display: inline-block;
+	width: 70px;
+	height: 34px;
+	line-height: 34px;
+}
+input {
+	height: 34px;
+	width: 238px;
+	border: 1px solid #ccc;
+}
+.phone {
+	font-family: 'icomnoon';
+}
